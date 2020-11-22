@@ -5,13 +5,7 @@
 }
 
 /**************************************************************** body ******************************************************************************/
-body
-{
-    position: relative;
-    left: 25em;
-    background-color:rgb(238, 226, 226) ;
-    width: 1250px;
-}
+
 .frame1
 {
     width:100%;
@@ -41,6 +35,8 @@ body
     padding: 1px;
     border:auto;
     overflow:hidden;
+    margin-left: 10vh;
+    margin-right: 10vh;
   }
   
   /* Floating column for labels: 25% width */
@@ -89,32 +85,32 @@ body
   .bigbutton1
   {
     background-color: #10b647;
-    border: none;
+    border: 8vh 8vh;
     color: white;
     width:20%;
     text-align: center;
     text-decoration: none;
     font-size: 3vh;
-    margin: 10px 20px;
+    margin: 5px 4px;
     cursor: pointer;
     border-radius: 5px;
-    margin-left: 47vh;
+    margin-left: 70vh;
     font-family: 'Heebo', sans-serif;
   }
   .bigbutton2
   {
     background-color: rgb(28, 106, 207);
-    border: none;
+    border: 10vh 10vh;
     color: white;
     padding: 10px 12px;
     text-align: center;
     text-decoration: none;
     display: inline-block;
     font-size: 4vh;
-    margin: 4px 2px;
+    margin: 6px 4px;
     cursor: pointer;
     border-radius: 5px;
-    margin-left: 40vh;
+    margin-left: 68vh;
     font-family: 'Heebo', sans-serif;
   }
   @media screen and (max-width: 600px) {
