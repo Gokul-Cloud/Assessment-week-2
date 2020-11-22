@@ -1,0 +1,138 @@
+<!doctype html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title> Register form</title>
+        <link rel="stylesheet" href="style.css">
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+    </head>
+    <body>
+        <div class="container">
+            <form >
+              <div class="row">
+                <div class="col-25">
+                  <label for="fname">Fullname Name</label>
+                </div>
+                <div class="col-75">
+                    <div class="input-icons"> 
+                        <i class="fa fa-user-circle icon" aria-hidden="true"></i> 
+                        <input class="input-field"  name="fname" type="text" placeholder="Username" required> 
+                    </div> 
+                </div>
+              </div>
+              <div class="row">
+                <div class="col-25">
+                  <label for="lname">Address 1</label>
+                </div>
+                <div class="col-75">
+                    <div class="input-icons">
+                    <i class="fa fa-address-card icon" aria-hidden="true"></i> 
+                    <input class="input-field"  name="address" type="text" placeholder="Address 2" required>
+                </div>
+              </div>
+            </div>
+              <div class="row">
+                <div class="col-25">
+                  <label for="lname">Address 2</label>
+                </div>
+                <div class="col-75">
+                    <div class="input-icons">
+                    <i class="fa fa-address-card icon" aria-hidden="true"></i> 
+                    <input class="input-field"  name="fname" type="text" placeholder="Address 2" required>
+                </div>
+              </div>
+            </div>
+              <div class="row">
+                <div class="col-25">
+                  <label for="lname">City</label>
+                </div>
+                <div class="col-75">
+                    <div class="input-icons">
+                    <i class="fa fa-location-arrow icon" aria-hidden="true"></i> 
+                    <input class="input-field"  name="City" type="text" placeholder="City" required>
+                </div>
+              </div>
+            </div>
+              <div class="row">
+                <div class="col-25">
+                  <label for="lname">state/province/region</label>
+                </div>
+                <div class="col-75">
+                    <div class="input-icons">
+                    <i class="fa fa-map icon" aria-hidden="true"></i> 
+                    <input class="input-field"  name="City" type="text" placeholder="State/region/province" required>
+                </div>
+              </div>
+            </div>
+              <div class="row">
+                <div class="col-25">
+                  <label for="lname">postalcode</label>
+                </div>
+                <div class="col-75">
+                    <div class="input-icons">
+                    <i class="fa fa-street-view icon" aria-hidden="true"></i>
+                    <input class="input-field"  name="Zip" type="text" placeholder="postalcode/Zip" required>
+                </div>
+              </div>
+            </div>
+              <div class="row">
+                <div class="col-25">
+                  <label for="country">Country</label>
+                </div>
+                <div class="col-75">
+                    <div class="input-icons">
+                    <i class="fa fa-globe icon" aria-hidden="true"></i>
+                  <select class="input-field" id="country" name="country" required>
+                    <option  disabled selected value>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;-choose your country-</option>
+                    <option value="australia">Australia</option>
+                    <option value="canada">Canada</option>
+                    <option value="Usa">USA</option>
+                    <option value="IN">India</option>
+                    <option value="cz">czech republic</option>
+                    <option value="nz">New Zealand</option>
+                  </select>
+                </div>
+              </div>
+              </div>
+              <div class="row">
+                <div class="col-25">
+                  <label for="lname">Email</label>
+                </div>
+                <div class="col-75">
+                    <div class="input-icons">
+                        <i class="fa fa-street-view icon" aria-hidden="true"></i>
+                        <input class="input-field"  name="Zip" type="text" placeholder="postalcode/Zip" required>
+                    </div>
+                </div>
+              </div>
+              <div class="row">
+                <div class="col-25">
+                  <label for="lname">Phone number</label>
+                </div>
+                <div class="col-75">
+                    <div class="input-icons">
+                        <i class="fa fa-phone icon" aria-hidden="true"></i>
+                        <input class="input-field" type="text" id="Mob" name="Address1" placeholder="Mobile number" required>
+                    </div>
+                </div>
+              </div>
+              <div class="row" style="text-align: center;">
+                <input type="submit" value="Submit" onclick="clickAlert()">
+              </div>
+            </form>
+          </div>
+        <script>
+            function clickAlert() {
+              alert("Thank you for submitting");
+          }
+          </script>
+   
+    <div class="navbar" >
+        <a href="Index.html" class="active">1</a>
+        <a href="page 1.html">2</a>
+        <a href="page 2.html">3</a>
+      </div>
+      
+       </body>
+</html>

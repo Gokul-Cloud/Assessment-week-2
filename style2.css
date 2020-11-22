@@ -1,0 +1,76 @@
+
+/**************************************************************** body ******************************************************************************/
+.grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(600px, 3fr));
+    grid-gap: 20px;
+    grid-auto-flow: dense;
+}
+.button {
+    background-color: #06c957;
+    border: none;
+    color: black;
+    padding: 10px 12px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 5px;
+  }
+  .button:hover
+  {
+  background-image:none;
+  background-color:#fdfffd;
+  }
+  .col-50
+  {
+      float: left;
+      width:50%;
+      margin-top:1px;
+  }
+  /* Clear floats after the columns */
+  .row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+  @media (max-width: 459px) {
+    .archive {
+      display: flex;
+      flex-direction: column;
+    }
+  }
+  /**************************************************************** body ******************************************************************************/
+/****************************************************************Navigation bar******************************************************************************/
+.navbar {
+    background-color: transparent;
+    overflow: hidden;
+    float:left;
+    bottom: 0;
+    width: 31.5%;
+  }
+  
+  .navbar a {
+    float: left;
+    display: block;
+    color: #974141;
+    text-align: center;
+    padding: 10px 10px;
+    text-decoration: none;
+    font-size: 17px;
+  }
+  
+
+  .navbar a:hover {
+    background-color: rgb(153, 49, 49);
+    color: black;
+  }
+  
+
+  .navbar a.active {
+    background-color: #4CAF50;
+    color: white;
+  }
+/****************************************************************Navigation bar******************************************************************************/
