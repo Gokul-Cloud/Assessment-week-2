@@ -2,7 +2,7 @@
 /**************************************************************** body ******************************************************************************/
 .grid {
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(600px, 3fr));
+    grid-template-columns: repeat(auto-fit, minmax(400px, 3fr));
     grid-gap: 20px;
     grid-auto-flow: dense;
 }
